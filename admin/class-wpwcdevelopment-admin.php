@@ -104,3 +104,9 @@ class Wpwcdevelopment_Admin {
 		echo"only test for repo.";
 	}
 }
+
+add_action('wp_footer','mydata');
+
+function mydata() {
+	echo "text";
+}
