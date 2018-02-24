@@ -100,4 +100,7 @@ class Wpwcdevelopment_Admin {
 
 	}
 
+	public function my_custom_test() {
+		echo"only test for repo.";
+	}
 }
